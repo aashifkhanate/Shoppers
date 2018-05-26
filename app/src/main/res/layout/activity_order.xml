@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.shoppers.Order"
+    android:background="@color/seaGreen">
+
+    <EditText
+        android:id="@+id/Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        android:text="ADDRESS -"
+        />
+    <EditText
+        android:id="@+id/PNo."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/Address"
+        android:textColor="@color/black"
+        android:text="PHONE NUMBER -"
+        />
+    <EditText
+        android:id="@+id/PinCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/PNo."
+        android:textColor="@color/black"
+        android:text="PIN CODE -"
+        />
+    <EditText
+        android:id="@+id/Payment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/PinCode"
+        android:textColor="@color/black"
+        android:text="MODE OF PAYMENT -"
+        />
+
+</RelativeLayout>

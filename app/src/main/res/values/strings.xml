@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Shoppers</string>
+    <string name="Gender">Choose a Gender</string>
+    <string-array name="gender_array">
+        <item>Choose a Gender</item>
+        <item>FEMALE</item>
+        <item>MALE</item>
+        <item>CHILDREN</item>
+    </string-array>
+    <string name="Category">Choose one among available</string>
+    <string-array name="category_array">
+        <item>Casual</item>
+        <item>Party-Wear</item>
+        <item>Formals</item>
+        <item>Ethenic</item>
+        <item>Fancy</item>
+        <item>Costumes</item>
+    </string-array>
+</resources>
